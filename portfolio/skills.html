@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .skills {
+            display: flex;
+
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 800px;
+            float: left;
+            margin-left: 120px;
+            margin-top: 10px;
+
+        }
+
+        .skills1 {
+
+            border-radius: 30px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            box-shadow: 3px 3px 3px 3px rgb(201, 186, 186);
+
+        }
+
+        .skillstext {
+            text-align: justify;
+            padding: 20px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+
+        .knowledge {
+            float: right;
+            margin-right: 300px;
+            padding: 20px;
+            background-color: lightblue;
+            border-radius: 8px;
+            margin-top: 80px;
+
+        }
+
+        .work {
+            float: right;
+            margin-right: 345px;
+            margin-bottom: 20px;
+            float: top;
+        }
+
+        .knowledgetext {
+            padding: 30px;
+            display: inline-block;
+        }
+
+        .know {
+            display: inline-block;
+            background-color: lightskyblue;
+            border: 1px solid rgba(223, 207, 207, 0.5);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            position: sticky;
+            top:5px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <h4>Devaki </h4>
+            </div>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="skills">
+        <div class="skills1 box1" style="margin-top: 20px;">
+            <h1 class="work1" style="margin-left: 10px;"><i class='bx bxs-graduation'></i>EDUCATION</h1>
+        </div>
+
+        <div class="skills1 box1" style="background-color: rgb(245, 228, 233);">
+            <div class="skillstext">
+                <p>2016-2020</p>
+                <p>Bachelor Of Electrical and Electronics Enginerring</p>
+                <p> Thiagarajar College Of Engineering<br>Madurai</p>
+                <p>Done Inplant Training in UNIQ Technology<br>Coimbatore</p>
+                <p>CGPA-7.1%</p>
+
+
+            </div>
+        </div>
+        <div class="skills1 box2" style="background-color: lightblue;" padding="10px">
+            <div class="skillstext">
+                <p>2015-2016</p>
+                <p>Senior Secondary(12th)</p>
+                <p>Velammal Matric Higher Secondary School</p>
+                <p>Percentage:94%</p>
+
+            </div>
+
+        </div>
+        <div class="skills1 box3" style="background-color: rgb(245, 228, 233);">
+            <div class="skillstext">
+                <p>2013-2014</p>
+                <p>Secondary(10th)</p>
+                <p>Shri Renuga Vidhyalaya Matric Hr Sec School</p>
+                <p>Percentage:97.8%</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="knowledge">
+        <h1>Working Skills</h1>
+        <div class="knowledge1 item1" style="margin-bottom: 20px;">
+            <div class="knowledgetext">
+                <label>HTML</label>
+                <input type="range" name="volume" min="0" max="95">95% <br><br><br><br>
+                <label>CSS</label>
+                <input type="range" name="volume" min="0" max="95">90%
+
+            </div>
+        </div>
+        <div class="knowledge1 item2">
+            <h1>Knowledges</h1>
+            <div class="knowledgetext">
+                <p class="know">Communication</p><br>
+                <p class="know">Time Management</p><br>
+                <p class="know">Flexibility</p><br>
+                <p class="know">Basic Computer Knowledge</p><br>
+                <p class="know">Team Collaboration</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
